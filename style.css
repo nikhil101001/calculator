@@ -1,0 +1,51 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  text-align: center;
+  font-size: 1.2em;
+  font-family: "Courier New", Courier, monospace;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+h1 {
+  margin: 22px;
+}
+
+table {
+  margin: auto;
+}
+
+input {
+  font-size: 2em;
+  border: 4px solid black;
+  outline: none;
+  border-radius: 12px;
+  padding: 8px;
+  margin: 9px;
+}
+
+button {
+  font-size: 2em;
+  background-color: white;
+  width: 102px;
+  height: 68px;
+  cursor: pointer;
+  background: gray;
+  border: none;
+  border-radius: 22px;
+  outline: none;
+  margin: 3px;
+}
+
+.calculator {
+  display: inline-block;
+  border: 4px solid black;
+  border-radius: 23px;
+  background: rgb(230, 230, 230);
+  padding: 18px;
+}

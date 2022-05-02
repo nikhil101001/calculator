@@ -4,7 +4,14 @@
 }
 
 h1 {
-  margin: 22px 0;
+  /* padding: 32px 0; */
+  position: relative;
+  bottom: 33px;
+}
+
+body {
+  width: 100vw;
+  height: 100vh;
 }
 
 .container {
@@ -13,19 +20,22 @@ h1 {
   text-align: center;
   display: flex;
   align-items: center;
+  justify-content: center;
   flex-direction: column;
+  height: 100vh;
+  width: 100vw;
 }
 
 .calculator {
   display: flex;
   flex-direction: column;
+  justify-content: center;
   align-items: center;
   box-shadow: 2px 0 42px rgba(128, 128, 128, 0.521),
     2px 0 13px rgba(128, 128, 128, 0.521);
   border-radius: 23px;
   background: rgb(230, 230, 230);
-  padding: 18px;
-  /* max-width: 90%; */
+  padding: 28px;
 }
 
 input {
@@ -33,7 +43,7 @@ input {
   border: none;
   outline: none;
   border-radius: 12px;
-  padding: 8px;
+  padding: 12px;
   margin: 9px;
   max-width: 90%;
   box-shadow: 2px 0 12px rgba(128, 128, 128, 0.521),
@@ -52,4 +62,20 @@ button {
   box-shadow: 2px 0 12px rgba(128, 128, 128, 0.521),
     2px 0 13px rgba(128, 128, 128, 0.521);
   margin: 4px;
+}
+
+/* media querry for small device */
+@media (max-width: 995px) {
+  .calculator {
+    max-width: 80%;
+    height: 60%;
+    font-size: 1.5em;
+  }
+  table {
+    width: 80%;
+  }
+
+  input {
+    margin-bottom: 52px;
+  }
 }

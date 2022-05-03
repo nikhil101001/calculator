@@ -64,6 +64,14 @@ button {
   margin: 4px;
 }
 
+.calculate {
+  color: white;
+}
+
+.equal {
+  background-color: transparent;
+}
+
 /* media querry for small device */
 @media (max-width: 995px) {
   .calculator {
